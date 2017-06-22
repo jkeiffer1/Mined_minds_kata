@@ -1,7 +1,7 @@
 number = 1
 
 100.times do 
-	if (number == 5)
+	if (number % 5 == 0)
 		puts "Minds"
 	else puts number
 	end
