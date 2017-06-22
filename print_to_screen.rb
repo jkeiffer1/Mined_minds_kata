@@ -1,7 +1,7 @@
 number = 1
 
 100.times do 
-	if (number == 3)
+	if (number % 3 == 0)
 		puts "Mined"
 	else puts number
 	end
