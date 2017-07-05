@@ -61,6 +61,5 @@ class Kata_test < Minitest::Test
 	def test_return_mod5_mod3_3
 		assert_equal("MinedMinds", mm_kata(75))
 	end
-
 end
 
