@@ -3,7 +3,7 @@ def mm_kata(num)
 		(num % 3 == 0)
 		"Mined"
 	elsif 
-		(num == 5)
+		(num % 5 == 0)
 		"Minds"
 	else
 		num

@@ -27,10 +27,31 @@ class Kata_test < Minitest::Test
 	end
 
 	def test_return_modulus_3
-		assert_equal("Mined", mm_kata(30))
+		assert_equal("Mined", mm_kata(42))
 	end
 
-	def test_return_modulus_3
+	def test_return_modulus_3_9
 		assert_equal("Mined", mm_kata(9))
 	end
+
+	def test_return_modulus_3_18
+		assert_equal("Mined", mm_kata(18))
+	end
+
+	def test_return_mod5_1
+		assert_equal("Minds", mm_kata(10))
+	end
+
+	def test_return_mod5_2
+		assert_equal("Minds", mm_kata(25))
+	end
+
+	def test_return_mod5_3
+		assert_equal("Minds", mm_kata(80))
+	end
+
+	def test_return_mod5_mod3
+		assert_equal("MinedMinds", mm_kata(15))
+	end
+
 end
