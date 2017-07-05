@@ -22,10 +22,15 @@ class Kata_test < Minitest::Test
 		assert_equal("Mined", mm_kata(3))
 	end
 
-	def test_return_modulous_3
+	def test_return_5
+		assert_equal("Minds",mm_kata(5))
+	end
+
+	def test_return_modulus_3
 		assert_equal("Mined", mm_kata(30))
 	end
 
-	def test_return_modulous_3
+	def test_return_modulus_3
 		assert_equal("Mined", mm_kata(9))
+	end
 end
