@@ -6,10 +6,6 @@ class Kata_test < Minitest::Test
 		assert_equal(1,1)
 	end
 
-	def test_failure_1_noteql_1
-		assert_equal(1,2)
-	end
-
 	def test_modulo
 		assert_equal(3 % 3, 0)
 	end
@@ -25,4 +21,11 @@ class Kata_test < Minitest::Test
 	def test_return_3
 		assert_equal("Mined", mm_kata(3))
 	end
+
+	def test_return_modulous_3
+		assert_equal("Mined", mm_kata(30))
+	end
+
+	def test_return_modulous_3
+		assert_equal("Mined", mm_kata(9))
 end
