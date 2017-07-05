@@ -50,8 +50,17 @@ class Kata_test < Minitest::Test
 		assert_equal("Minds", mm_kata(80))
 	end
 
-	def test_return_mod5_mod3
+	def test_return_mod5_mod3_1
 		assert_equal("MinedMinds", mm_kata(15))
 	end
 
+	def test_return_mod5_mod3_2
+		assert_equal("MinedMinds", mm_kata(30))
+	end
+
+	def test_return_mod5_mod3_3
+		assert_equal("MinedMinds", mm_kata(75))
+	end
+
 end
+
