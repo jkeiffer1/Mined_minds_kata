@@ -26,12 +26,29 @@ class Array_kata_test < Minitest::Test
 		assert_equal("Minds", array_kata(5))
 	end
 
-	def test_array_kata_3
+	def test_array_kata_mod3_return1
 		assert_equal("Mined", array_kata(9))
 	end
 
-	def test_array_kata_4
+	def test_array_kata_mod3_return2
+		assert_equal("Mined", array_kata(18))
+	end
+
+	def test_array_mod3_return3
+		assert_equal("Mined", array_kata(96))
+	end
+
+	def test_array_kata_mod5_return1
 		assert_equal("Minds", array_kata(20))
 	end
+
+	def test_array_kata_mod5_return2
+		assert_equal("Minds", array_kata(85))
+	end
+
+	def test_array_kata_mod5_return3
+		assert_equal("Minds", array_kata(50))
+	end
+	
 
 end
