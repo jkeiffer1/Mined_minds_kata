@@ -22,4 +22,9 @@ class Array_kata_test < Minitest::Test
 		assert_equal("Mined", array_kata(3))
 	end
 
+	def test_array_kata_2
+		assert_equal("Minds", array_kata(5))
+		
+	end
+
 end
