@@ -13,4 +13,8 @@ class Array_kata_test < Minitest::Test
 	def test_array_2
 		assert_equal(98,array_kata(97))
 	end
+
+	def test_array_3
+		assert_equal(26,array_kata(25))
+	end
 end
