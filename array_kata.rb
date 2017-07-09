@@ -1,5 +1,5 @@
 def array_kata(x)
-	a = (1..100).to_a 
-	a[x]
+	num = (0..100).to_a 
+	num[x]
 end
 
