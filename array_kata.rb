@@ -3,7 +3,7 @@ def array_kata(x)
 	num[x]
 	if (num[x] % 3 == 0)
 		"Mined"
-	elsif num[x] == 5
+	elsif (num[x] % 5 == 0)
 		"Minds"
 	else
 		num[x]
