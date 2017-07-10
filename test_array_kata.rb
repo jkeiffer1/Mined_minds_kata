@@ -28,6 +28,11 @@ class Array_kata_test < Minitest::Test
 		
 	end
 
+	def test_mod5_10_returns_minds
+		assert_equal("minds", array_kata[9])
+	end
+
+
 #	def test_array_1
 #		assert_equal(4,array_kata(4))
 #	end

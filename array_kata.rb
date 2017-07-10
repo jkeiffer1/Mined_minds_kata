@@ -8,7 +8,7 @@ def array_kata()
 		if item % 3 == 0
 	   	num[index] = "mined"
 
-		elsif item == 5
+		elsif item % 5 == 0
 			num[index] = "minds"
 
 		end
