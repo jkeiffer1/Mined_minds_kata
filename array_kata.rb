@@ -1,11 +1,17 @@
 def array_kata()
 	num = (1..100).to_a
 	# num
-	if num[2] == 3
-	   num[2] = "mined"
+	index = 0
+	num.each do |item|
+		# p "#{item} item is here"
+		# p "#{index} index goes here"
+		if item % 3 == 0
+	   	num[index] = "mined"
+		end
+		index = index + 1
 	end
 
-	# if (num[] % 15 == 0)
+	# if (num[ % 15 == 0)
 	# 	"MinedMinds"
 	# elsif (num[] % 3 == 0)
 	# 	"Mined"

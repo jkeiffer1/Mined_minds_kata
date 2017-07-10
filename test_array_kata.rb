@@ -8,6 +8,7 @@ class Array_kata_test < Minitest::Test
 
 	def test_1_to_100
 		assert_equal(100, array_kata.length)
+		p array_kata
 	end
 
 	def test_1_returns_1
@@ -15,8 +16,14 @@ class Array_kata_test < Minitest::Test
 	end
 
 	def test_3_returns_mined
-		p array_kata
 		assert_equal("mined",array_kata[2])
+	end
+
+	def test_6_returns_mined
+		assert_equal("mined", array_kata[5])
+	end
+
+	def test_
 		
 	end
 
