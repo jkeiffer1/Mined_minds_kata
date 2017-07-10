@@ -7,8 +7,13 @@ def array_kata()
 		# p "#{index} index goes here"
 		if item % 3 == 0
 	   	num[index] = "mined"
+
+		elsif item == 5
+			num[index] = "minds"
+
 		end
 		index = index + 1
+		
 	end
 
 	# if (num[ % 15 == 0)
