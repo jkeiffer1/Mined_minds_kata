@@ -1,15 +1,19 @@
-def array_kata(x)
-	num = (0..100).to_a 
-	num[x]
-	if (num[x] % 15 == 0)
-		"MinedMinds"
-	elsif (num[x] % 3 == 0)
-		"Mined"
-	elsif (num[x] % 5 == 0)
-		"Minds"
-	else
-		num[x]
+def array_kata()
+	num = (1..100).to_a
+	# num
+	if num[2] == 3
+	   num[2] = "mined"
 	end
+
+	# if (num[] % 15 == 0)
+	# 	"MinedMinds"
+	# elsif (num[] % 3 == 0)
+	# 	"Mined"
+	# elsif (num[] % 5 == 0)
+	# 	"Minds"
+#else
+		num
+#end
 end
 
 
