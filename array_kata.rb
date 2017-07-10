@@ -5,7 +5,10 @@ def array_kata()
 	num.each do |item|
 		# p "#{item} item is here"
 		# p "#{index} index goes here"
-		if item % 3 == 0
+		if item % 15 == 0
+			num[index] = "minedminds"
+			
+		elsif item % 3 == 0
 	   	num[index] = "mined"
 
 		elsif item % 5 == 0
